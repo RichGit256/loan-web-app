@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Registration 1/3</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text-center">Registration 1/3</h1>
+      <h4 class="text-center">Personal Information</h4>
+      <form action="employmentInfo.html" method="post">
+        <div class="form-group">
+          <div class="row">
+            <div class="col-md-6">
+              <label for="firstName">First Name</label>
+              <input type="text" class="form-control" id="firstName" name="firstName">
+            </div>
+            <div class="col-md-6">
+              <label for="lastName">Last Name</label>
+              <input type="text" class="form-control" id="lastName" name="lastName">
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="row">
+            <div class="col-md-6">
+              <label>Gender</label>
+              <div class="form-check">
+                <input type="radio" class="form-check-input" id="male" name="gender" value="male">
+                <label class="form-check-label" for="male">Male</label>
+              </div>
+              <div class="form-check">
+                <input type="radio" class="form-check-input" id="female" name="gender" value="female">
+                <label class="form-check-label" for="female">Female</label>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <label for="birthday">Date of Birth</label>
+              <input type="date" class="form-control" id="birthday" name="birthday">
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="row">
+            <div class="col-md-6">
+              <label for="phoneNum">Phone Number</label>
+              <input type="text" class="form-control" id="phoneNum" name="phoneNum">
+            </div>
+            <div class="col-md-6">
+              <label for="email">E-Mail</label>
+              <input type="email" class="form-control" id="email" name="email">
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="row">
+            <div class="col-md-6">
+              <label for="homeAdd">Home Adress</label>
+              <input type="text" class="form-control" id="homeAdd" name="homeAdd">
+            </div>
+            <div class="col-md-6">
+                <label>Marital Status</label>
+                <div class="form-check">
+                  <input type="radio" class="form-check-input" id="single" name="mStatus1" value="single">
+                  <label class="form-check-label" for="single">Single</label>
+                </div>
+                <div class="form-check">
+                  <input type="radio" class="form-check-input" id="married" name="mStatus1" value="married">
+                  <label class="form-check-label" for="married">Married</label>
+                </div>
+                <div class="form-check">
+                  <input type="radio" class="form-check-input" id="other" name="mStatus1" value="other">
+                  <label class="form-check-label" for="other">Other</label>
+                </div>
+              </div>
+              
+              <div class="col-md-6">
+                <label>How would you describe where you live at the moment?</label>
+                <div class="form-check">
+                  <input type="radio" class="form-check-input" id="rapartment" name="mStatus2" value="rapartment">
+                  <label class="form-check-label" for="rapartment">Rented Apartment</label>
+                </div>
+                <div class="form-check">
+                  <input type="radio" class="form-check-input" id="ownhouse" name="mStatus2" value="ownhouse">
+                  <label class="form-check-label" for="ownhouse">Ownhouse</label>
+                </div>
+                <div class="form-check">
+                  <input type="radio" class="form-check-input" id="familyhouse" name="mStatus2" value="familyhouse">
+                  <label class="form-check-label" for="familyhouse">Family House</label>
+                </div>
+              </div>
+            <div>
+                <input type="submit" name="submit1" value="Next" style="background-color: rgb(49, 49, 117); color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">
+            </div>
+        </div>
+    </div>
+</html>
+        

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration 3/3</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Registration 3/3</h1>
+      <h4>Identification</h4>
+      <form action="." method="post">
+        <div class="form-group">
+          <label for="moi">Means of Identification</label>
+          <div class="form-check">
+            <input type="radio" name="moi" id="nin" value="nin" class="form-check-input">
+            <label for="nin" class="form-check-label">NIN (National Identification Number)</label>
+          </div>
+          <div class="form-check">
+            <input type="radio" name="moi" id="driverlics" value="driverlics" class="form-check-input">
+            <label for="driverlics" class="form-check-label">Driver's License</label>
+          </div>
+          <div class="form-check">
+            <input type="radio" name="moi" id="idcard" value="idcard" class="form-check-input">
+            <label for="idcard" class="form-check-label">National I.D Card</label>
+          </div>
+          <div class="form-check">
+            <input type="radio" name="moi" id="passport" value="passport" class="form-check-input">
+            <label for="passport" class="form-check-label">International Passport</label>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="bvn">Please enter 11 digit BVN (Bank Verification Number)</label>
+          <input type="number" name="bvn" id="bvn" class="form-control">
+        </div>
+        <button type="submit" name="submit3" class="btn btn-primary">Finish</button>
+      </form>
+    </div>
+  </body>
+</html>
